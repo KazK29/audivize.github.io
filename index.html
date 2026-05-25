@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  
   <title>Audivize</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
@@ -111,7 +112,13 @@
 <body>
 
 <nav>
-  <div class="logo">Audi<span>vize</span></div>
+  <div class="logo" style="display:flex;align-items:center;gap:10px;">
+  <img src="https://imgur.com/Lgz5fOr" alt="Audivize logo" style="height:32px;width:auto;">
+  <div>
+    <div style="font-size:17px;font-weight:700;letter-spacing:-0.5px;color:white;line-height:1;">Audi<span style="color:#4d9fff;">vize</span></div>
+    <div style="font-size:8px;color:rgba(255,255,255,0.5);letter-spacing:2px;text-transform:uppercase;line-height:1;margin-top:2px;">See the conversation</div>
+  </div>
+</div>
   <div class="nl">
     <a class="active" onclick="sp('home',this)">Home</a>
     <a onclick="sp('how',this)">How it works</a>
